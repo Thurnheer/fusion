@@ -1,9 +1,9 @@
-@tile: Serialise data with boost fusion
-@author: THUC, 3330, @ThurnheerC
-@date 2019-02-12
+@title[Serialise data with boost fusion]
+@author[THUC, 3330, @ThurnheerC]
+@date[2019-02-12]
 
 # Serialise data with boost fusion 
-Based on the cppnow 2014 talk of [Thomas Rodgers](https://youtu.be/wbZdZKpUVeg)
+Based on the cppnow 2014 talk of [Thomas Rodgers!](https://youtu.be/wbZdZKpUVeg)
 
 ---
 
