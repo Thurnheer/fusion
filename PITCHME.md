@@ -47,7 +47,7 @@ Fusion containers work on both types and values
 
 ---
 
-~~~
+```
  
 // ==================================================================================================
 // ===============================================   Member Functions   =============================
@@ -83,4 +83,4 @@ struct GsiEntryT : GsiTempPoolEntryT<T>
 
 typedef GsiEntryT<std::string, 11, ASCII> GsiPointIdT;
 
----
+```
