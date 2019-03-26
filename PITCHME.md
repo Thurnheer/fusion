@@ -3,7 +3,7 @@
 @date[2019-02-12]
 
 # Serialise data with boost fusion 
-Based on the cppnow 2014 talk of [Thomas Rodgers!](https://youtu.be/wbZdZKpUVeg)
+Based on the cppnow 2014 talk of [Thomas Rodgers](https://youtu.be/wbZdZKpUVeg)
 
 ---
 
@@ -49,6 +49,7 @@ Fusion containers work on both types and values
 ---
 
 ```c++
+@[1-16]
  
 // ==================================================================================================
 // ===============================================   Member Functions   =============================
@@ -66,7 +67,9 @@ public:
 private:
     T m_value;
 };
+```
 
+```
 template<typename T, unsigned short identification, SPL_UNIT unit>
 struct GsiEntryT : GsiTempPoolEntryT<T>
 {
@@ -81,7 +84,9 @@ struct GsiEntryT : GsiTempPoolEntryT<T>
         return unit;
     }
 };
+```
 
+```
 typedef GsiEntryT<std::string, 11, ASCII> GsiPointIdT;
 
 ```
