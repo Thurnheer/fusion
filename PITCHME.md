@@ -1,6 +1,4 @@
 @title[Serialise data with boost fusion]
-@author[THUC, 3330, @ThurnheerC]
-@date[2019-02-12]
 
 # Serialise data with boost fusion 
 Based on the cppnow 2014 talk of [Thomas Rodgers](https://youtu.be/wbZdZKpUVeg)
@@ -49,7 +47,6 @@ Fusion containers work on both types and values
 ---
 
 ```c++
-@[1-16]
  
 // ==================================================================================================
 // ===============================================   Member Functions   =============================
@@ -85,6 +82,7 @@ struct GsiEntryT : GsiTempPoolEntryT<T>
     }
 };
 ```
+@[1-16](Temperary pool entry) 
 
 ```
 typedef GsiEntryT<std::string, 11, ASCII> GsiPointIdT;
