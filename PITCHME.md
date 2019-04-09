@@ -1,7 +1,9 @@
 @title[Serialise data with boost fusion]
 
 # Serialise data with boost fusion 
-[Based on the cppnow 2014 talk of Thomas Rodgers](https://youtu.be/wbZdZKpUVeg)
+@snap
+Based on the cppnow 2014 talk of [Thomas Rodgers](https://youtu.be/wbZdZKpUVeg)
+@snapend
 
 ---
 

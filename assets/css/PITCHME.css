@@ -19,10 +19,10 @@
 }
 
 .reveal a {
-  color: white;
+  color: blue;
 }
 
 .reveal a:hover {
-  color: white;
+  color: blue;
   font-weight: bold;
 }
